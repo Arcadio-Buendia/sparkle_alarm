@@ -1,4 +1,3 @@
-import psutil
 from datetime import datetime as dt
 from datetime import timedelta
 
@@ -43,5 +42,6 @@ for i in range(0,no_of_tests):
     output.append("{} {}".format(hours,minutes))
 
 #show user the result in specified format
+print("\n")
 for sleep in output:
     print(sleep)
